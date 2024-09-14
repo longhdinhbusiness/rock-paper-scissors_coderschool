@@ -5,7 +5,7 @@ function ChoiceCard({ gameItem, handleGameItemChange }) {
   return (
     <img
       onClick={() => {
-        handleGameItemChange();
+        handleGameItemChange(gameItem);
       }}
       className="choice"
       src={url}

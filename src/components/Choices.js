@@ -10,7 +10,7 @@ function Choices({ gameItems, handleGameItemChange }) {
           <ChoiceCard
             key={gameItem.id}
             gameItem={gameItem}
-            handleGameItemChange={gameItem}
+            handleGameItemChange={handleGameItemChange(gameItem)}
           />
         ))}
       </div>

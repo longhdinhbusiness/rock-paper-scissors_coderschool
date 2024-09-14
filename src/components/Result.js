@@ -1,8 +1,6 @@
 import React from 'react';
-import user1GameItem from './Main.js';
-import user2GameItem from './Main.js';
 
-function Result({ result }) {
+function Result({ result, user1GameItem, user2GameItem }) {
   return (
     <div>
       <h1 className="result-header">Result</h1>
