@@ -53,7 +53,7 @@ export default function Main() {
         />
         <Display />
         <Choices
-          gameItems={{ ...gameItems }}
+          gameItems={gameItems}
           handleGameItemChange={handleGameItemChange}
         />
       </div>
