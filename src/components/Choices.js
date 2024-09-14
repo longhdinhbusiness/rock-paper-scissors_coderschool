@@ -1,5 +1,5 @@
-import React from "react";
-import ChoiceCard from "./ChoiceCard";
+import React from 'react';
+import ChoiceCard from './ChoiceCard';
 
 function Choices({ gameItems, handleGameItemChange }) {
   return (
@@ -10,7 +10,7 @@ function Choices({ gameItems, handleGameItemChange }) {
           <ChoiceCard
             key={gameItem.id}
             gameItem={gameItem}
-            handleGameItemChange={"Your code here"}
+            handleGameItemChange={gameItem}
           />
         ))}
       </div>

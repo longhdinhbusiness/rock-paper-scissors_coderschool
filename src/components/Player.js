@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 function Player({ avatarUrl, name }) {
   return (
     <div className="user">
       <span>{name}</span>
-      <img className="avatar" src="Your code here" alt="Your code here" />
+      <img className="avatar" src={avatarUrl} alt={avatarUrl} />
     </div>
   );
 }

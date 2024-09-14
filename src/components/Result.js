@@ -1,6 +1,8 @@
-import React from "react";
+import React from 'react';
+import user1GameItem from './Main.js';
+import user2GameItem from './Main.js';
 
-function Result({ "Your code here" }) {
+function Result({ result }) {
   return (
     <div>
       <h1 className="result-header">Result</h1>
